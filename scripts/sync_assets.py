@@ -4,7 +4,7 @@ import sys
 
 # Configuración
 BASE_URL = "https://i-c-flesan.github.io/assets-flesan/"
-ASSETS_DIRS = ["banner_areas", "base-html", "icono_f1", "iconos_png", "iconos_svg", "logos"]
+IGNORE_DIRS = [".git", "scripts"]
 README_PATH = "README.md"
 ASSETS_SECTION_HEADER = "## Assets disponibles"
 
@@ -23,10 +23,11 @@ def run_command(command, description):
 def get_assets_list():
     """Escanea los directorios de assets y devuelve una lista formateada en Markdown."""
     assets = []
-    for directory in ASSETS_DIRS:
-        if not os.path.exists(directory):
-            continue
-        
+    
+    # Obtener todas las carpetas en el nivel raíz
+    root_dirs = [d for d in os.listdir(".") if os.path.isdir(d) and d not in IGNORE_DIRS]
+    
+    for directory in root_dirs:
         # Caminar por el directorio para encontrar archivos
         for root, _, files in os.walk(directory):
             for file in files:
