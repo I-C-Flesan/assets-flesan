@@ -3,6 +3,7 @@ Repositorio público para alojar imágenes y archivos estáticos accesibles vía
 ## URL base
 `https://i-c-flesan.github.io/assets-flesan/`
 ## Assets disponibles
+- [`banner_areas/finanzas.png`](https://i-c-flesan.github.io/assets-flesan/banner_areas/finanzas.png)
 - [`base-html/header-asistencia.png`](https://i-c-flesan.github.io/assets-flesan/base-html/header-asistencia.png)
 - [`base-html/header-notificacion-procesos.png`](https://i-c-flesan.github.io/assets-flesan/base-html/header-notificacion-procesos.png)
 - [`base-html/header-onboarding.png`](https://i-c-flesan.github.io/assets-flesan/base-html/header-onboarding.png)
@@ -20,3 +21,4 @@ Repositorio público para alojar imágenes y archivos estáticos accesibles vía
 - [`iconos_svg/ico-saldos-bancarios.svg`](https://i-c-flesan.github.io/assets-flesan/iconos_svg/ico-saldos-bancarios.svg)
 - [`iconos_svg/ico-succes.svg`](https://i-c-flesan.github.io/assets-flesan/iconos_svg/ico-succes.svg)
 - [`iconos_svg/ico-welcome-email.svg`](https://i-c-flesan.github.io/assets-flesan/iconos_svg/ico-welcome-email.svg)
+- [`logos/flesan_one.png`](https://i-c-flesan.github.io/assets-flesan/logos/flesan_one.png)
